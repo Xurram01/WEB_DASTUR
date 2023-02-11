@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def news_home(requests):
-    return render(requests, 'main/about.html')
+    return render(requests, 'news/news_home.html')
